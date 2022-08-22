@@ -1,0 +1,25 @@
+######### CONFIGURATION OF WEBSITE #########
+
+#[ Info ]
+name           : ppgHuman
+title          : ppgHuman
+url            : https://ppgHuman.github.io
+encoding       : utf-8
+
+#[ Plugin ]
+safe           : false
+plugins        : []
+
+#[ conv ]
+markdown       : kramdown
+highlighter    : rouge
+
+#[ Actions ]
+keep_files     : [".git",".svn"]
+source         : .
+destination    : ./site
+collections_dir: .
+sass:
+  sass_dir: assets/sass
+exclude        : ["README.md"]
+include        : [".htaccess"]
